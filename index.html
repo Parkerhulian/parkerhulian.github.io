@@ -69,6 +69,1136 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Using-AHP-to-Select-Power-Equipment" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/08/11/Using-AHP-to-Select-Power-Equipment/" class="article-date">
+  <time class="dt-published" datetime="2024-08-11T15:18:12.000Z" itemprop="datePublished">2024-08-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/08/11/Using-AHP-to-Select-Power-Equipment/">Using_AHP_to_Select_Power_Equipment</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Using AHP Method to Develop the Selection Strategy of Power Generation Equipment in Main Photovoltaic Power Generation Areas</p>
+<p>Lian Hu</p>
+<p>Beijing No.80 High School Jan. 30, 2024</p>
+<p><strong>Abstract</strong></p>
+<p>This paper mainly uses AHP model to construct two different models to help select photovoltaic products for a large solar photovoltaic power station(LSPV). In the component of photovoltaic station is divided into five main parts: photovoltaic panels, photovoltaic inverters, mounting systems, photovoltaic backsheets and solar cells. After doing random sampling on specialized market website, a certain number of products for each part are selected; at the same time, two large photovoltaic power generation areas in Bhadla, India and Longyang Gorge, China are selected to construct a comparison matrix and finally calculate the optimal solution according to their different climates, including temperature, precipitation and wind speed.</p>
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Photovoltaic power generation uses the photoelectric effect to convert solar energy into electricity. When sunlight hits a photovoltaic panel, the photons interact with the atoms on the photovoltaic panel and are absorbed. These photons are energetic enough to excite electrons in the photovoltaic panel to jump from the valence band to the conduction band, forming free electrons. Electrons flow from one side to the other, creating an electric current. By connecting an external circuit to a load, the current can be transmitted and utilized. [<a href="#_bookmark11">7</a>]</p>
+<p>From 2010 to 2018, concentrated solar energy increased significantly from 1.3GW to 5.7GW, and it is also considered to be one of the most promising renewable energy sources for future development.</p>
+<p>[<a href="#_bookmark10">6</a>] [<a href="#_bookmark6">2</a>]</p>
+<p>The study found that high-voltage devices that print solar cells in series have an installed rate per minute (in watts) that far exceeds that of any other photovoltaic technology available.[<a href="#_bookmark7">3</a>] This shows that the large solar system used to produce the energy will be the most effective method.</p>
+<p>The photovoltaic station can be divided into five main parts: photovoltaic Panels, photovoltaic inverters, mounting systems, photovoltaic backsheets and solar cells. [<a href="#_bookmark13">9</a>].</p>
+<h1 id="AHP-Model"><a href="#AHP-Model" class="headerlink" title="AHP Model"></a>AHP Model</h1><h2 id="Introduction-to-AHP-Model"><a href="#Introduction-to-AHP-Model" class="headerlink" title="Introduction to AHP Model"></a>Introduction to AHP Model</h2><p>AHP is a quantitative method for decision analysis and prioritization designed to help decision makers make rational decisions in complex problems. The method divides the decision problem into multiple levels, determines the relationship between the levels, and determines the optimal solution through comparison and evaluation.</p>
+<h2 id="Standardization"><a href="#Standardization" class="headerlink" title="Standardization"></a>Standardization</h2><p>For parameters of different dimensions, for different profitability and cost indicators, we need to do standardization to remove the dimensions and dimensional units of data of different dimensions. This is, is a linear transformation of the original data such that the resulting values map between [0-1]. The conversion function is as follows:</p>
+<p><em>X</em> &#x3D;  <em>xmax − x</em></p>
+<p><em>xmax − xmin</em></p>
+<h2 id="Comparison-Matrix"><a href="#Comparison-Matrix" class="headerlink" title="Comparison Matrix"></a>Comparison Matrix</h2><p>After the rating factors are given, the evaluation matrix is established. An evaluation matrix is usually a square matrix with rows and columns representing elements in the hierarchy, such as guidelines or schemes. The elements of a matrix represent the relative importance between two elements. Decision- makers can fill in these elements using methods based on expert experience, subjective judgment, or questionnaires. Typically, evaluation is performed on a scale of 1 to 9, where 1 indicates that two elements are of exactly equal importance and 9 indicates that one element is significantly more important than the other. Refer to table <a href="#_bookmark0">1</a> These values reflect the decision maker’s relative judgment of the degree of difference between the two elements.</p>
+<p>Numerical rating Verbal judgments of preferences</p>
+<p>1 Equally preferred</p>
+<ol>
+<li><p>Moderately preferred</p>
+<p>5 Strongly preferred</p>
+<p>7 Very strongly preferred</p>
+<p>9 Extremely preferred</p>
+<p>2,4,6,8 The middle level of two adjacent judgments</p>
+<p><strong>Table 1: Pair-wise Comparison Scale</strong></p>
+</li>
+</ol>
+<h2 id="Calculating-Weights-and-Consistency-Ratio"><a href="#Calculating-Weights-and-Consistency-Ratio" class="headerlink" title="Calculating Weights and Consistency Ratio"></a>Calculating Weights and Consistency Ratio</h2><p>After creating the n×n comparison matrix, we make comparative evaluation according to <a href="#_bookmark0">1</a>. At the same time, ensure that the <em>Pij</em> covers all factors and set the <em>Pij</em> &#x3D; 1&#x2F;<em>Pji</em>. The normalized pairwise comparison matrix is obtained. First, calculate the sum of each column. Secondly, divide each entry in the matrix by its column sum. Thirdly, the relative weights are obtained by calculating the average value of rows. [<a href="#_bookmark14">10</a>]</p>
+<p>To make weights are valid, the consistency ratio (CR) should be calculated by using the function:</p>
+<p><em>CI</em> &#x3D; <em>λ</em>max <em>− n</em></p>
+<p><em>n −</em> 1</p>
+<p><em>CI</em></p>
+<p><em>CR</em> &#x3D;</p>
+<p><em>RI</em></p>
+<p>(1)</p>
+<p>(2)</p>
+<p>In hierarchical analysis, the numerical condition for Consistency Ratio (CR) is usually between 0 and 0.1. When CR is less than or equal to 0.1, the consistency of the judgment matrix is considered acceptable. If the calculated CR value exceeds 0.1, it indicates that the judgment matrix has a large</p>
+<p>consistency problem and needs to be adjusted and corrected.</p>
+<h2 id="Solar-Components-and-the-Determining-Factors"><a href="#Solar-Components-and-the-Determining-Factors" class="headerlink" title="Solar Components and the Determining Factors"></a>Solar Components and the Determining Factors</h2><p>Extracting some of the most important parameters from professional PV websites to show on the Table <a href="#_bookmark1">2</a> below for clarity. [<a href="#_bookmark5">1</a>]</p>
+<p>Solar Component Factors</p>
+<p>Panels Price, Product warranty, Power, Power tolerance, Temperature coefficient Inverters Power, Efficiency, Max.altitude</p>
+<p>Bracket Systems Price, Product warranty, Tilt angle, Wind load, Snow load Backsheets Price, Tensile strength, Thermal shrinkage</p>
+<p>Cells Price, Power, Temperature coefficient</p>
+<p><strong>Table 2: Components and the determining factors</strong></p>
+<p>Note 1: All data of solar components of different products are shown in appendix <a href="#appendix---solar-components">7</a>.</p>
+<p>Note 2: For large photovoltaic power generation, the power choice of a single inverter is between 50KW and 80KW. [<a href="#_bookmark9">5</a>]</p>
+<h1 id="Bhadla-Solar-Park"><a href="#Bhadla-Solar-Park" class="headerlink" title="Bhadla Solar Park"></a>Bhadla Solar Park</h1><h2 id="Climate-in-Bhadla"><a href="#Climate-in-Bhadla" class="headerlink" title="Climate in Bhadla"></a>Climate in Bhadla</h2><p>Bahadla Photovoltaic Power Station is a large-scale ground-based solar power project located in Jodhpur district of Rajasthan in northern India. By 2022, the total power is estimated to reach 40GW, making it the largest solar park in the world.[<a href="#_bookmark8">4</a>]</p>
+<p>Bahadla located in Jodhpur, orthwestern India, in the state of Rajasthan, experiences an arid subtropical climate. <a href="#_bookmark3">1</a> The city sits at an elevation of 280 meters above sea level. The climate in Jodhpur is characterized by distinct seasons and limited rainfall. Prior to the onset of the monsoon, which usually begins in March and extends until mid-June, Jodhpur experiences scorching heat. During this period, temperatures can soar above 45℃, and sandstorms are not uncommon.</p>
+<h2 id="Data"><a href="#Data" class="headerlink" title="Data"></a>Data</h2><p>The following tables show all CR and Weight data groups from Bahadla area.</p>
+<p><img src="/media/9eca5c89583c7a731b5db3cb0fe0e400.jpeg"></p>
+<p><strong>Figure 1:</strong> Bahadla Solar Park</p>
+<table>
+<thead>
+<tr>
+<th><strong>Weight -&gt; Price</strong></th>
+<th><strong>Pdt Warranty</strong></th>
+<th><strong>Power</strong></th>
+<th><strong>Power Deviation</strong></th>
+<th><strong>Temp. Coefficient</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CR&#x3D;0.04256 0.181774</td>
+<td>0.2785852</td>
+<td>0.4298341</td>
+<td>0.0399629</td>
+<td>0.0698429</td>
+</tr>
+</tbody></table>
+<p><strong>Table 3: CR and Weight Value Group A-1</strong></p>
+<h3 id="Weight-Max-Power-Efficiency-Altitude"><a href="#Weight-Max-Power-Efficiency-Altitude" class="headerlink" title="Weight -&gt; Max Power Efficiency Altitude"></a>Weight -<em>&gt;</em> Max Power Efficiency Altitude</h3><p>CR&#x3D;0.03180650067104995 0.589126932 0.356838227 0.054034841</p>
+<p><strong>Table 4: CR and Weight Value Group A-2</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Weight -&gt;</strong></th>
+<th><strong>Price</strong></th>
+<th><strong>Product Warranty</strong></th>
+<th><strong>Max Slope of Landform</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CR &#x3D; 0.007933373029549594</td>
+<td>0.457933979</td>
+<td>0.416060631</td>
+<td>0.12600539</td>
+</tr>
+</tbody></table>
+<p><strong>Table 5: CR and Weight Value Group A-3</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Weight -&gt;</strong></th>
+<th><strong>Price</strong></th>
+<th><strong>Strength of extension</strong></th>
+<th><strong>Thermal Shrinkage</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CR &#x3D; 0.01577129938761093</td>
+<td>0.549945607</td>
+<td>0.209843523</td>
+<td>0.24021087</td>
+</tr>
+</tbody></table>
+<p><strong>Table 6: CR and Weight Value Group A-4</strong></p>
+<h3 id="Weight-Price-Power-Temperature-coefficient"><a href="#Weight-Price-Power-Temperature-coefficient" class="headerlink" title="Weight -&gt; Price Power Temperature coefficient"></a>Weight -<em>&gt;</em> Price Power Temperature coefficient</h3><p>CR &#x3D; 0.09297183953015146 0.517133619 0.358560425 0.124305957</p>
+<p><strong>Table 7: CR and Weight Value Group A-5</strong></p>
+<h2 id="Computation-Matrices"><a href="#Computation-Matrices" class="headerlink" title="Computation Matrices"></a>Computation Matrices</h2><p>Here presents comparison matrices. Appendix code <a href="#_bookmark16">8</a> shows how to compute CR and Weight by using comparison matrix.</p>
+<p></p>
+<p></p>
+<p><em>matrix</em> &#x3D; </p>
+<p>1 1*&#x2F;<em>2 1</em>&#x2F;*3 5 4 </p>
+<p>2 1 1*&#x2F;*2 6 5</p>
+<p>3 2 1 7 6 </p>
+<p>(3)</p>
+<p>1*&#x2F;<em>5 1</em>&#x2F;<em>6 1</em>&#x2F;<em>7 1 1</em>&#x2F;*3</p>
+<p>1*&#x2F;<em>4 1</em>&#x2F;<em>5 1</em>&#x2F;*6 3 1 </p>
+<p> 1 2 9</p>
+<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 8</p>
+<p>1*&#x2F;<em>9 1</em>&#x2F;*8 1</p>
+<p>(4)</p>
+<p> 1 1 4</p>
+<p><em>matrix</em> &#x3D;  1 1 3</p>
+<p>(5)</p>
+<p>1*&#x2F;<em>4 1</em>&#x2F;*3 1</p>
+<p> 1 3 2</p>
+<p><em>matrix</em> &#x3D; 1*&#x2F;*3 1 1</p>
+<p>1*&#x2F;*2 1 1</p>
+<p>(6)</p>
+<p> 1 2 3</p>
+<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 4</p>
+<p>1*&#x2F;<em>3 1</em>&#x2F;*4 1</p>
+<p>(7)</p>
+<h2 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h2><p>Here it shows each types of photovoltaic module final score corresponding to Bahadla data (Section</p>
+<p><a href="#data">3.2</a>).</p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AGORA Solar</td>
+<td>0.24908093</td>
+</tr>
+<tr>
+<td>TAMESOL SOLAR GROUP SL</td>
+<td>0.355507439</td>
+</tr>
+<tr>
+<td>瑞兴源光伏科技有限公司</td>
+<td>0.257822951</td>
+</tr>
+<tr>
+<td>Autarco BV</td>
+<td>0.249465072</td>
+</tr>
+<tr>
+<td>合肥恒创新能源有限公司</td>
+<td><strong>0.437311934</strong></td>
+</tr>
+<tr>
+<td>浙江公元新能源科技股份有限公司</td>
+<td>0.177423469</td>
+</tr>
+<tr>
+<td>江苏锦尚新能源有限公司</td>
+<td>0.365151504</td>
+</tr>
+<tr>
+<td>宁波晶冠太阳能科技有限公司</td>
+<td>0.28576215</td>
+</tr>
+<tr>
+<td>Austa Energy</td>
+<td>0.295126483</td>
+</tr>
+<tr>
+<td>弘元光能（无锡）有限公司</td>
+<td>0.310718854</td>
+</tr>
+</tbody></table>
+<p><strong>Table 8: Final Score Group A-1</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Solenso Electronic Materials Co., Ltd.</td>
+<td>0.467636519</td>
+</tr>
+<tr>
+<td>上能电气股份有限公司</td>
+<td>0.48930848</td>
+</tr>
+<tr>
+<td>Amerisolar</td>
+<td>0.474483394</td>
+</tr>
+<tr>
+<td>厦门科华数能科技有限公司</td>
+<td><strong>0.555718948</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 9: Final Score Group A-2</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.38416347</td>
+</tr>
+<tr>
+<td>虎克（厦门）新材料有限公司</td>
+<td>0.454309525</td>
+</tr>
+<tr>
+<td>安普盛（厦门）能源科技有限公司</td>
+<td>0.363251927</td>
+</tr>
+<tr>
+<td>厦门耐晟新能源科技有限公司</td>
+<td>0.28403658</td>
+</tr>
+<tr>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.377301544</td>
+</tr>
+<tr>
+<td>索亿斯（厦门）科技有限公司</td>
+<td>0.157590032</td>
+</tr>
+<tr>
+<td>厦门子元能源科技有限公司</td>
+<td><strong>0.471634683</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 10: Final Score Group A-3</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td>0.1220899</td>
+</tr>
+<tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td>0.157986056</td>
+</tr>
+<tr>
+<td>Knack Energy Pvt. Ltd</td>
+<td>0.358776739</td>
+</tr>
+<tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td><strong>0.529834511</strong></td>
+</tr>
+<tr>
+<td>Knack Energy Pvt. Ltd.</td>
+<td>0.366613719</td>
+</tr>
+<tr>
+<td>浙江飞宇新能源有限公司</td>
+<td>0.478668033</td>
+</tr>
+</tbody></table>
+<p><strong>Table 11: Final Score Group A-4</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>江苏华能智慧能源供应链科技有限公司</td>
+<td>0.305074076</td>
+</tr>
+<tr>
+<td>澳利能源技术有限公司</td>
+<td>0.490602143</td>
+</tr>
+<tr>
+<td>江苏德宇新能源科技有限公司</td>
+<td>0.158876266</td>
+</tr>
+<tr>
+<td>无锡施莱德新能源有限公司</td>
+<td>0.508880415</td>
+</tr>
+<tr>
+<td>浙江润马光能科技有限公司</td>
+<td><strong>0.54920998</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 12: Final Score Group A-5</strong></p>
+<p><img src="/media/079f4b310970fbdf1770319d2d2d75d0.jpeg"></p>
+<p><strong>Figure 2:</strong> Longyangxia Solar Park</p>
+<h1 id="Longyangxia-Solar-Park"><a href="#Longyangxia-Solar-Park" class="headerlink" title="Longyangxia Solar Park"></a>Longyangxia Solar Park</h1><h2 id="Climate-in-Longyangxia"><a href="#Climate-in-Longyangxia" class="headerlink" title="Climate in Longyangxia"></a>Climate in Longyangxia</h2><p>Longxiangxia, at an altitude of 2514 meters on Tibet Plateau, has an annual temperature range from -11℃ to 24℃ and experiences a few precipitation during its winter. The wind speed is hardly larger than 61 km&#x2F;h. [<a href="#_bookmark12">8</a>]</p>
+<h2 id="Data-1"><a href="#Data-1" class="headerlink" title="Data"></a>Data</h2><p>The following tables show all CR and Weight data groups from Longyangxia area.</p>
+<h3 id="Weight-Price-Pdt-Warranty-Power-Power-Deviation-Temp-Coefficient"><a href="#Weight-Price-Pdt-Warranty-Power-Power-Deviation-Temp-Coefficient" class="headerlink" title="Weight -&gt; Price Pdt Warranty Power Power Deviation Temp. Coefficient"></a>Weight -<em>&gt;</em> Price Pdt Warranty Power Power Deviation Temp. Coefficient</h3><p>CR &#x3D; 0.0969625 0.23919498 0.328629 0.351457 0.049870872 0.030847999</p>
+<p><strong>Table 13: CR and Weight Value Group B-1</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Weight -&gt;</strong></th>
+<th><strong>Max Power</strong></th>
+<th><strong>Efficiency Altitude</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CR &#x3D; 0.04622549644738984</td>
+<td>0.412598948</td>
+<td>0.327480002 0.25992105</td>
+</tr>
+</tbody></table>
+<p><strong>Table 14: CR and Weight Value Group B-2</strong></p>
+<h3 id="Weight-Price-Product-Warranty-Max-Slope-of-Landform-Snow-Load"><a href="#Weight-Price-Product-Warranty-Max-Slope-of-Landform-Snow-Load" class="headerlink" title="Weight -&gt; Price Product Warranty Max Slope of Landform Snow Load"></a>Weight -<em>&gt;</em> Price Product Warranty Max Slope of Landform Snow Load</h3><p>CR &#x3D; 0.009770794955293831 0.525078561 0.315806571 0.105148076 0.053966792</p>
+<p><strong>Table 15: CR and Weight Value Group B-3</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Weight -&gt;</strong></th>
+<th><strong>Price</strong></th>
+<th><strong>Strength of extension</strong></th>
+<th><strong>Thermal Shrinkage</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CR &#x3D; 0.00477164805042976</td>
+<td>0.690835352</td>
+<td>0.148835965</td>
+<td>0.160328683</td>
+</tr>
+</tbody></table>
+<p><strong>Table 16: CR and Weight Value Group B-4</strong></p>
+<h3 id="Weight-Price-Power-Temperature-Coefficient"><a href="#Weight-Price-Power-Temperature-Coefficient" class="headerlink" title="Weight -&gt; Price Power Temperature Coefficient"></a>Weight -<em>&gt;</em> Price Power Temperature Coefficient</h3><p>CR &#x3D; 0.0031849983307247393 0.444273493 0.472111034 0.083615473</p>
+<p><strong>Table 17: CR and Weight Value Group B-5</strong></p>
+<h2 id="Computation-Matrices-1"><a href="#Computation-Matrices-1" class="headerlink" title="Computation Matrices"></a>Computation Matrices</h2><p>Here presents comparison matrices. Appendix code <a href="#_bookmark16">8</a> shows how to compute CR and Weight by using comparison matrix.</p>
+<p></p>
+<p></p>
+<p><em>matrix</em> &#x3D; </p>
+<p>1 1 1*&#x2F;*3 8 7</p>
+<p>1 1 2 6 7</p>
+<p>3 1*&#x2F;*2 1 8 9</p>
+<p>(8)</p>
+<p>1*&#x2F;<em>8 1</em>&#x2F;<em>6 1</em>&#x2F;<em>8 1 3 1</em>&#x2F;<em>7 1</em>&#x2F;<em>7 1</em>&#x2F;<em>9 1</em>&#x2F;*3 1</p>
+<p> 1 1 2</p>
+<p><em>matrix</em> &#x3D;  1 1 1</p>
+<p>(9)</p>
+<p>1*&#x2F;*2 1 1</p>
+<p> 1 2 5 8</p>
+<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 3 7</p>
+<p>1*&#x2F;<em>5 1</em>&#x2F;*3 1 2</p>
+<p>1*&#x2F;<em>8 1</em>&#x2F;<em>7 1</em>&#x2F;*2 1</p>
+<p>(10)</p>
+<p> 1 5 4</p>
+<p><em>matrix</em> &#x3D; 1*&#x2F;*5 1 1</p>
+<p>1*&#x2F;*4 1 1</p>
+<p>(11)</p>
+<p> 1 1 5</p>
+<p><em>matrix</em> &#x3D;  1 1 6</p>
+<p>(12)</p>
+<p>1*&#x2F;<em>5 1</em>&#x2F;*6 1</p>
+<h2 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h2><p>Here it shows each types of photovoltaic module final score corresponding to Longyangxia data (Section <a href="#_bookmark4">4.2</a>).</p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor&#x2F;Model</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AG-B72 - 450Wp</td>
+<td>0.24077238</td>
+</tr>
+<tr>
+<td>TM Series 530M-144HC</td>
+<td>0.367279047</td>
+</tr>
+<tr>
+<td>RS7I-M 425W</td>
+<td>0.273149486</td>
+</tr>
+<tr>
+<td>S1.MHJ390</td>
+<td>0.251704456</td>
+</tr>
+<tr>
+<td><strong>Evo6N SE6-66HBD 695W Bifacial HJT Solar Panel</strong></td>
+<td><strong>0.424576494</strong></td>
+</tr>
+<tr>
+<td>ERA-54HC 390M</td>
+<td>0.160875074</td>
+</tr>
+<tr>
+<td>JS182M144HC-525W</td>
+<td>0.380120381</td>
+</tr>
+<tr>
+<td>NS-440MH-120</td>
+<td>0.291153435</td>
+</tr>
+<tr>
+<td>AU-545W-36MH</td>
+<td>0.294396184</td>
+</tr>
+<tr>
+<td>HT Series TOPCon HY-NT10&#x2F;72GDF 565 Double-glass</td>
+<td>0.291381146</td>
+</tr>
+</tbody></table>
+<p><strong>Table 18: Final Score Group B-1</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Solenso Electronic Materials Co., Ltd.</td>
+<td>0.5206316</td>
+</tr>
+<tr>
+<td>上能电气股份有限公司</td>
+<td>0.459044309</td>
+</tr>
+<tr>
+<td>Amerisolar</td>
+<td>0.448188293</td>
+</tr>
+<tr>
+<td>厦门科华数能科技有限公司</td>
+<td><strong>0.544221918</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 19: Final Score Group B-2</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.375898983</td>
+</tr>
+<tr>
+<td>虎克（厦门）新材料有限公司</td>
+<td>0.470012815</td>
+</tr>
+<tr>
+<td>安普盛（厦门）能源科技有限公司</td>
+<td>0.34166371</td>
+</tr>
+<tr>
+<td>厦门耐晟新能源科技有限公司</td>
+<td>0.308488857</td>
+</tr>
+<tr>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.363907722</td>
+</tr>
+<tr>
+<td>索亿斯（厦门）科技有限公司</td>
+<td>0.132148632</td>
+</tr>
+<tr>
+<td>厦门子元能源科技有限公司</td>
+<td><strong>0.465256493</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 20: Final Score Group B-3</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td>0.082661027</td>
+</tr>
+<tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td>0.111582659</td>
+</tr>
+<tr>
+<td>Knack Energy Pvt. Ltd</td>
+<td>0.412369262</td>
+</tr>
+<tr>
+<td>上海嘉阳能源科技有限公司</td>
+<td><strong>0.488602994</strong></td>
+</tr>
+<tr>
+<td>Knack Energy Pvt. Ltd.</td>
+<td>0.426046182</td>
+</tr>
+<tr>
+<td>浙江飞宇新能源有限公司</td>
+<td>0.488436229</td>
+</tr>
+</tbody></table>
+<p><strong>Table 21: Final Score Group B-4</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Vendor</strong></th>
+<th><strong>Final Score</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>江苏华能智慧能源供应链科技有限公司</td>
+<td>0.338414908</td>
+</tr>
+<tr>
+<td>澳利能源技术有限公司</td>
+<td>0.493343141</td>
+</tr>
+<tr>
+<td>江苏德宇新能源科技有限公司</td>
+<td>0.193783115</td>
+</tr>
+<tr>
+<td>无锡施莱德新能源有限公司</td>
+<td>0.493321341</td>
+</tr>
+<tr>
+<td>浙江润马光能科技有限公司</td>
+<td><strong>0.535791861</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Table 22: Final Score Group B-5</strong></p>
+<h1 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h1><p>AHP uses subjective impressions to determine the allocation of weights. The advantage is that the weight determined by the judgment matrix will change with the different local climate, which is more convenient than the traditional formula. On the other hand, the limited factors considered are also the reasons that restrict the accuracy of the model in specific applications.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>Therefore, according to the distribution of large photovoltaic power stations, in tropical and sub- tropical South Asia and the Arab region, people are more inclined to buy heat-resistant photovoltaic components. For photovoltaic power plants located at high altitudes, their own cost and efficiency are more important.</p>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ol>
+<li><p>ENF Ltd. — enfsolar.com. <a target="_blank" rel="noopener" href="https://www.enfsolar.com/">https://www.enfsolar.com/</a>. [Accessed 26-01-2024].</p>
+</li>
+<li><p>Ehsanul Kabir et al. “Solar energy: Potential and future prospects”. In: Renewable and Sustainable Energy Revie 82 (Feb. 2018), pp. 894–900. issn: 13640321. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.rser.2017.09.094">10.1016&#x2F;j.rser.2017.09.094</a>. url: <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S1364032117313485">https:</a></p>
+<p><a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S1364032117313485">&#x2F;&#x2F;linkinghub.elsevier.com&#x2F;retrieve&#x2F;pii&#x2F;S1364032117313485</a> (visited on 01&#x2F;26&#x2F;2024).</p>
+</li>
+<li><p>Frederik C. Krebs et al. “25th Anniversary Article: Rise to Power – OPV-Based Solar Parks”. In: Advanced Materials 26.1 (Jan. 2014), pp. 29–39. issn: 0935-9648, 1521-4095. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1002/adma.201302031">10.1002&#x2F;</a> <a target="_blank" rel="noopener" href="https://doi.org/10.1002/adma.201302031">adma.201302031</a>. url: <a target="_blank" rel="noopener" href="https://onlinelibrary.wiley.com/doi/10.1002/adma.201302031">https://onlinelibrary.wiley.com/doi/10.1002/adma.201302031</a> (visited on 01&#x2F;30&#x2F;2024).</p>
+</li>
+<li><p>B Rajesh Kumar. “Case 21: Bhadla Solar Park”. In: Project Finance. Series Title: Management for Professionals. Cham: Springer International Publishing, 2022, pp. 205–208. isbn: 978-3-030- 96724-6 978-3-030-96725-3. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-030-96725-3_25">10 .1007 &#x2F;978 - 3 - 030 - 96725 - 3 _ 25</a>. url: <a target="_blank" rel="noopener" href="https://link.springer.com/10.1007/978-3-030-96725-3_25">https://link.</a></p>
+<p><a target="_blank" rel="noopener" href="https://link.springer.com/10.1007/978-3-030-96725-3_25">springer.com&#x2F;10.1007&#x2F;978-3-030-96725-3_25</a> (visited on 01&#x2F;28&#x2F;2024).</p>
+</li>
+<li><p>Alessandro Massi Pavan et al. “A study on the mismatch effect due to the use of different photo-</p>
+<p>voltaic modules classes in large-scale solar parks”. In: Progress in Photovoltaics: Research and Applications</p>
+</li>
+</ol>
+<p>22.3 (Mar. 2014), pp. 332–345. issn: 1062-7995, 1099-159X. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1002/pip.2266">10.1002&#x2F;pip.2266</a>. url: <a target="_blank" rel="noopener" href="https://onlinelibrary.wiley.com/doi/10.1002/pip.2266">https:</a></p>
+<p><a target="_blank" rel="noopener" href="https://onlinelibrary.wiley.com/doi/10.1002/pip.2266">&#x2F;&#x2F;onlinelibrary.wiley.com&#x2F;doi&#x2F;10.1002&#x2F;pip.2266</a> (visited on 01&#x2F;29&#x2F;2024).</p>
+<ol>
+<li><p>Malek Kamal Hussien Rabaia et al. “Environmental impacts of solar energy systems: A review”. In: Science of The Total Environment 754 (Feb. 2021), p. 141989. issn: 00489697. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.scitotenv.2020.141989">10.1016&#x2F;</a> <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.scitotenv.2020.141989">j . scitotenv . 2020 . 141989</a>. url: <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S0048969720355182">https : &#x2F; &#x2F; linkinghub . elsevier . com &#x2F; retrieve &#x2F; pii &#x2F;</a> <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S0048969720355182">S0048969720355182</a> (visited on 01&#x2F;26&#x2F;2024).</p>
+</li>
+<li><p>D. Sakthivadivel et al. “Solar energy technologies: principles and applications”. In: Renewable-Energy-Driven Futu Elsevier, 2021, pp. 3–42. isbn: 978-0-12-820539-6. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1016/B978-0-12-820539-6.00001-7">10.1016&#x2F;B978-0-12-820539-6.00001-7</a>.</p>
+<p>url: <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/B9780128205396000017">https://linkinghub.elsevier.com/retrieve/pii/B9780128205396000017</a> (visited on 01&#x2F;26&#x2F;2024).</p>
+</li>
+<li><p>Simulated historical climate &amp; weather data for Longyangxia - meteoblue — meteoblue.com. <a target="_blank" rel="noopener" href="https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/longyangxia_china_8577795">https:</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/longyangxia_china_8577795">&#x2F;&#x2F;www.meteoblue.com/en/weather/historyclimate/climatemodelled/longyangxia_china_</a> <a target="_blank" rel="noopener" href="https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/longyangxia_china_8577795">8577795</a>. [Accessed 28-01-2024].</p>
+</li>
+<li><p>Solar MAG. Solar Power System 101: Facts, Quick Guide, and More. https:&#x2F;solarmagazine. com&#x2F;solar-power-systems&#x2F;, Last accessed on 2024-1-26. 2020.</p>
+</li>
+<li><p>Mevlut Uyan. “GIS-based solar farms site selection using analytic hierarchy process (AHP) in Karapinar region, Konya&#x2F;Turkey”. In: Renewable and Sustainable Energy Reviews 28 (Dec. 2013), pp. 11–17. issn: 13640321. doi: <a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.rser.2013.07.042">10 . 1016 &#x2F; j . rser . 2013 . 07 . 042</a>. url: <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S1364032113004875">https : &#x2F; &#x2F;</a> <a target="_blank" rel="noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S1364032113004875">linkinghub.elsevier.com&#x2F;retrieve&#x2F;pii&#x2F;S1364032113004875</a> (visited on 01&#x2F;27&#x2F;2024).</p>
+</li>
+</ol>
+<h1 id="Appendix-Solar-Components"><a href="#Appendix-Solar-Components" class="headerlink" title="Appendix - Solar Components"></a>Appendix - Solar Components</h1><table>
+<thead>
+<tr>
+<th>光伏组件</th>
+<th>产品型号</th>
+<th>公司</th>
+<th>价格（￥&#x2F;Wp）</th>
+<th>产品质量保障（年）</th>
+<th>功率（Wp）</th>
+<th>功率偏差（%）</th>
+<th>温度系数（%&#x2F;℃）</th>
+<th>组件尺寸（高&#x2F;宽&#x2F;厚）（mm）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>AG-B72 - 450Wp</td>
+<td>AGORA Solar</td>
+<td>1.86</td>
+<td>20</td>
+<td>450</td>
+<td>1</td>
+<td>-0.35</td>
+<td>2105x1043x5</td>
+</tr>
+<tr>
+<td></td>
+<td>TM Series 530M-144HC</td>
+<td>TAMESOL SOLAR GROUP SL</td>
+<td>0.832</td>
+<td>25</td>
+<td>530</td>
+<td>3</td>
+<td>-0.35</td>
+<td>2279x1134x35</td>
+</tr>
+<tr>
+<td></td>
+<td>RS7I-M 425W</td>
+<td>瑞兴源光伏科技有限公司</td>
+<td>0.832</td>
+<td>12</td>
+<td>425</td>
+<td>1</td>
+<td>-0.39</td>
+<td>2115x1052x30</td>
+</tr>
+<tr>
+<td></td>
+<td>S1.MHJ390</td>
+<td>Autarco BV</td>
+<td>1.05</td>
+<td>12</td>
+<td>390</td>
+<td>1.5</td>
+<td>-0.34</td>
+<td>1722x1134x30</td>
+</tr>
+<tr>
+<td></td>
+<td>Evo6N SE6-66HBD 695W Bifacial HJT Solar Panel</td>
+<td>合肥恒创新能源有限公司</td>
+<td>0.889</td>
+<td>25</td>
+<td>695</td>
+<td>0.5</td>
+<td>-0.26</td>
+<td>2384x1303x35</td>
+</tr>
+<tr>
+<td></td>
+<td>ERA-54HC 390M</td>
+<td>浙江公元新能源科技股份有限公司</td>
+<td>1.88</td>
+<td>12</td>
+<td>390</td>
+<td>5</td>
+<td>-0.35</td>
+<td>1722x1134x35</td>
+</tr>
+<tr>
+<td></td>
+<td>JS182M144HC-525W</td>
+<td>江苏锦尚新能源有限公司</td>
+<td>0.782</td>
+<td>25</td>
+<td>525</td>
+<td>1</td>
+<td>-0.35</td>
+<td>2279x1134x35</td>
+</tr>
+<tr>
+<td></td>
+<td>NS-440MH-120</td>
+<td>宁波晶冠太阳能科技有限公司</td>
+<td>0.839</td>
+<td>15</td>
+<td>440</td>
+<td>3</td>
+<td>-0.34</td>
+<td>1907x1134x35</td>
+</tr>
+<tr>
+<td></td>
+<td>AU-545W-36MH</td>
+<td>Austa Energy</td>
+<td>0.853</td>
+<td>12</td>
+<td>545</td>
+<td>3</td>
+<td>-0.35</td>
+<td>2256x1133x35</td>
+</tr>
+<tr>
+<td></td>
+<td>HT Series TOPCon HY-NT10&#x2F;72GDF 565 Double-glass</td>
+<td>弘元光能（无锡）有限公司</td>
+<td>1.35</td>
+<td>15</td>
+<td>565</td>
+<td>1</td>
+<td>-0.29</td>
+<td>2278x1134x30</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>光伏逆变器</td>
+<td>产品型号</td>
+<td>公司</td>
+<td>最大输出功率（KW）</td>
+<td>效率（%）</td>
+<td>最高运行海拔（m）</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>DS 5000W</td>
+<td>Solenso Electronic Materials Co., Ltd.</td>
+<td>5000</td>
+<td>97.6</td>
+<td>4000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>EP-5000-HB-UD&#x2F;20˜35</td>
+<td>上能电气股份有限公司</td>
+<td>5750</td>
+<td>99</td>
+<td>2000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Wolfram-5000-INV</td>
+<td>Amerisolar</td>
+<td>5500</td>
+<td>97.8</td>
+<td>2000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>SPI6250&#x2F;6800K-B-HUD&#x2F;T</td>
+<td>厦门科华数能科技有限公司</td>
+<td>6876</td>
+<td>99.02</td>
+<td>3000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>支架系统</td>
+<td>产品型号</td>
+<td>公司</td>
+<td>价格（￥&#x2F;Wp）</td>
+<td>产品质量保障（年）</td>
+<td>最大地势倾斜度（°）</td>
+<td>抗风能力（km&#x2F;h）</td>
+<td>雪荷载（kN&#x2F;m²）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Mg-Al-Zn Ground Solar Mounting System</td>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.21</td>
+<td>15</td>
+<td>45</td>
+<td>216</td>
+<td>2.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>HQ-GT4 Double Post Solar Ground Mounting Solution</td>
+<td>虎克（厦门）新材料有限公司</td>
+<td>0.118</td>
+<td>12</td>
+<td>60</td>
+<td>300</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Ground Solar Mounting System</td>
+<td>安普盛（厦门）能源科技有限公司</td>
+<td>0.244</td>
+<td>15</td>
+<td>60</td>
+<td>216</td>
+<td>1.5</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>GA2 Ground Solar Mounting System</td>
+<td>厦门耐晟新能源科技有限公司</td>
+<td>0.251</td>
+<td>10</td>
+<td>45</td>
+<td>165.6</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Hot dip galvanized Zinc Steel Solar Mounting System</td>
+<td>厦门友巨新能源股份有限公司</td>
+<td>0.23</td>
+<td>15</td>
+<td>60</td>
+<td>216</td>
+<td>2.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Solar Ground Mounting – N</td>
+<td>索亿斯（厦门）科技有限公司</td>
+<td>0.377</td>
+<td>10</td>
+<td>45</td>
+<td>162</td>
+<td>1.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Ground Mounting-East West Adjustable</td>
+<td>厦门子元能源科技有限公司</td>
+<td>0.136</td>
+<td>15</td>
+<td>60</td>
+<td>216</td>
+<td>1.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>背板</td>
+<td>产品型号</td>
+<td>公司</td>
+<td>价格（￥&#x2F;m²）</td>
+<td>抗拉强度（Mpa）</td>
+<td>热收缩率（%）</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>JST-Back-400</td>
+<td>上海嘉阳能源科技有限公司</td>
+<td>34.1</td>
+<td>40</td>
+<td>≤1 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>JST-Back-300</td>
+<td>上海嘉阳能源科技有限公司</td>
+<td>33.8</td>
+<td>140</td>
+<td>≤1.2 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>KNACK BS PET W15</td>
+<td>Knack Energy Pvt. Ltd</td>
+<td>9.01</td>
+<td>100</td>
+<td>≤1.5 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>JST-Back-100</td>
+<td>上海嘉阳能源科技有限公司</td>
+<td>14.9</td>
+<td>167</td>
+<td>≤0.48 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>KNACK BS PET W10</td>
+<td>Knack Energy Pvt. Ltd.</td>
+<td>7.72</td>
+<td>90</td>
+<td>≤1.5 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>KPC 1000V Backsheet</td>
+<td>浙江飞宇新能源有限公司</td>
+<td>9.81</td>
+<td>150</td>
+<td>≤1 %</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>太阳能电池片</td>
+<td>产品型号</td>
+<td>公司</td>
+<td>价格（￥&#x2F;Wp）</td>
+<td>功率（Wp）</td>
+<td>温度系数（%&#x2F;℃）</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Huaneng H-182 Bifacial</td>
+<td>江苏华能智慧能源供应链科技有限公司</td>
+<td>0.640</td>
+<td>7.49</td>
+<td>-0.39</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>AL-M10M182-10BB</td>
+<td>澳利能源技术有限公司</td>
+<td>0.356</td>
+<td>7.49</td>
+<td>-0.38</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>M166 9BB PERC</td>
+<td>江苏德宇新能源科技有限公司</td>
+<td>0.883</td>
+<td>6.06</td>
+<td>-0.38</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>M182B10B</td>
+<td>无锡施莱德新能源有限公司</td>
+<td>0.441</td>
+<td>7.26</td>
+<td>-0.35</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>RM-182M</td>
+<td>浙江润马光能科技有限公司</td>
+<td>0.341</td>
+<td>7.59</td>
+<td>-0.36</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<ol>
+<li><strong>Appendix - CR and Weight computing code</strong></li>
+</ol>
+<p>1 import numpy as np</p>
+<p>2</p>
+<p>3 def compute_consistency_index(matrix):</p>
+<p>4 n &#x3D; matrix.shape[0]</p>
+<p>5 eigenvalues, _ &#x3D; np.linalg.eig(matrix)</p>
+<p>6 lambda_max &#x3D; max(eigenvalues.real)</p>
+<p>7 consistency_index &#x3D; (lambda_max - n) &#x2F; (n - 1)</p>
+<p>8 return consistency_index</p>
+<p>9</p>
+<p>10 def compute_consistency_ratio(matrix):</p>
+<p>11 ri_table &#x3D; [0, 0, 0.58, 0.9, 1.12, 1.24, 1.32, 1.41, 1.45, 1.49, 1.51, 1.48, 1.56, 1.57,</p>
+<p>1.59]</p>
+<p>12 consistency_index &#x3D; compute_consistency_index(matrix)</p>
+<p>13 n &#x3D; matrix.shape[0]</p>
+<p>14 random_index &#x3D; ri_table[n-1]</p>
+<p>15 consistency_ratio &#x3D; consistency_index &#x2F; random_index</p>
+<p>16</p>
+<p>17 if consistency_ratio &gt;&#x3D; 0.1:</p>
+<p>18 raise ValueError(“Inconsistent judgments. Consistency Ratio exceeds the threshold.”)</p>
+<p>19</p>
+<p>20 return consistency_ratio</p>
+<p>21</p>
+<p>22 def compute_weights(matrix):</p>
+<p>23 n &#x3D; matrix.shape[0]</p>
+<p>24 eigenvalues, eigenvectors &#x3D; np.linalg.eig(matrix)</p>
+<p>25 max_eigenvalue_index &#x3D; np.argmax(eigenvalues.real)</p>
+<p>26 weights &#x3D; np.abs(eigenvectors[:, max_eigenvalue_index].real)</p>
+<p>27 weights &#x2F;&#x3D; weights.sum()</p>
+<p>28 return weights</p>
+<p>29</p>
+<p>30</p>
+<p>31 # 示例：计算一致性指标和权重</p>
+<p>32 # 假设有一个3的判断矩阵x3</p>
+<p>33 matrix &#x3D; np.array([[</p>
+<p>34 #输入矩阵</p>
+<p>35 ]])</p>
+<p>36 try:</p>
+<p>37 consistency_ratio &#x3D; compute_consistency_ratio(matrix)</p>
+<p>38 weights &#x3D; compute_weights(matrix)</p>
+<p>39</p>
+<p>40 print(“CR &#x3D;”,consistency_ratio)</p>
+<p>41 print(“Weights:”)</p>
+<p>42 for i, weight in enumerate(weights):</p>
+<p>43 print(f”Criterion {i+1}: {weight}”)</p>
+<p>44</p>
+<p>45 except ValueError as e:</p>
+<p>46 print(e)</p>
+        
+          <p class="article-more-link">
+            <a href="/2024/08/11/Using-AHP-to-Select-Power-Equipment/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/08/11/Using-AHP-to-Select-Power-Equipment/" data-id="clzppro1a00006cuu9gra1n13" data-title="Using_AHP_to_Select_Power_Equipment" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-About-human-civilization" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/07/13/About-human-civilization/" class="article-date">
@@ -500,7 +1630,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">July 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">June 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/03/">March 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/02/">February 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">January 2024</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">July 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">June 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/03/">March 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/02/">February 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">January 2024</a></li></ul>
     </div>
   </div>
 
@@ -511,6 +1641,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/08/11/Using-AHP-to-Select-Power-Equipment/">Using_AHP_to_Select_Power_Equipment</a>
+          </li>
         
           <li>
             <a href="/2024/07/13/About-human-civilization/">Civilization and Catastrophe</a>
@@ -526,10 +1660,6 @@
         
           <li>
             <a href="/2024/03/20/Underground-energy-storage/">Why energy is stored underground?</a>
-          </li>
-        
-          <li>
-            <a href="/2024/03/03/radar/">radar</a>
           </li>
         
       </ul>
