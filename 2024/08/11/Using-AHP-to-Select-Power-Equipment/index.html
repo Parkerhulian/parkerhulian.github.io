@@ -13,13 +13,17 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Using AHP Method to Develop the Selection Strategy of Power Generation Equipment in Main Photovoltaic Power Generation Areas Lian Hu Beijing No.80 High School Abstract This paper mainly uses AHP model">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/media/9eca5c89583c7a731b5db3cb0fe0e400.jpeg">
-<meta property="og:image" content="http://example.com/media/079f4b310970fbdf1770319d2d2d75d0.jpeg">
+<meta property="og:image" content="http://example.com/images/yuanpei_formula.jpg">
+<meta property="og:image" content="http://example.com/images/yuanpei_equations.png">
+<meta property="og:image" content="http://example.com/images/Bahadla_map.jpg">
+<meta property="og:image" content="http://example.com/images/yuanpei_matrix_1.png">
+<meta property="og:image" content="http://example.com/images/longyangxia_map.jpg">
+<meta property="og:image" content="http://example.com/images/yuanpei_matrix_2.png">
 <meta property="article:published_time" content="2024-08-11T15:18:12.000Z">
-<meta property="article:modified_time" content="2024-08-11T15:34:45.526Z">
+<meta property="article:modified_time" content="2024-10-20T15:09:58.804Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/media/9eca5c89583c7a731b5db3cb0fe0e400.jpeg">
+<meta name="twitter:image" content="http://example.com/images/yuanpei_formula.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -108,8 +112,7 @@
 <p>The photovoltaic station can be divided into five main parts: photovoltaic Panels, photovoltaic inverters, mounting systems, photovoltaic backsheets and solar cells. [<a href="#_bookmark13">9</a>].</p>
 <h1 id="AHP-Model"><a href="#AHP-Model" class="headerlink" title="AHP Model"></a>AHP Model</h1><h2 id="Introduction-to-AHP-Model"><a href="#Introduction-to-AHP-Model" class="headerlink" title="Introduction to AHP Model"></a>Introduction to AHP Model</h2><p>AHP is a quantitative method for decision analysis and prioritization designed to help decision makers make rational decisions in complex problems. The method divides the decision problem into multiple levels, determines the relationship between the levels, and determines the optimal solution through comparison and evaluation.</p>
 <h2 id="Standardization"><a href="#Standardization" class="headerlink" title="Standardization"></a>Standardization</h2><p>For parameters of different dimensions, for different profitability and cost indicators, we need to do standardization to remove the dimensions and dimensional units of data of different dimensions. This is, is a linear transformation of the original data such that the resulting values map between [0-1]. The conversion function is as follows:</p>
-<p><em>X</em> &#x3D;  <em>xmax − x</em></p>
-<p><em>xmax − xmin</em></p>
+<p><img src="/images/yuanpei_formula.jpg" alt="Standardization function"></p>
 <h2 id="Comparison-Matrix"><a href="#Comparison-Matrix" class="headerlink" title="Comparison Matrix"></a>Comparison Matrix</h2><p>After the rating factors are given, the evaluation matrix is established. An evaluation matrix is usually a square matrix with rows and columns representing elements in the hierarchy, such as guidelines or schemes. The elements of a matrix represent the relative importance between two elements. Decision- makers can fill in these elements using methods based on expert experience, subjective judgment, or questionnaires. Typically, evaluation is performed on a scale of 1 to 9, where 1 indicates that two elements are of exactly equal importance and 9 indicates that one element is significantly more important than the other. Refer to table <a href="#_bookmark0">1</a> These values reflect the decision maker’s relative judgment of the degree of difference between the two elements.</p>
 <p>Numerical rating Verbal judgments of preferences</p>
 <p>1 Equally preferred</p>
@@ -124,13 +127,7 @@
 </ol>
 <h2 id="Calculating-Weights-and-Consistency-Ratio"><a href="#Calculating-Weights-and-Consistency-Ratio" class="headerlink" title="Calculating Weights and Consistency Ratio"></a>Calculating Weights and Consistency Ratio</h2><p>After creating the n×n comparison matrix, we make comparative evaluation according to <a href="#_bookmark0">1</a>. At the same time, ensure that the <em>Pij</em> covers all factors and set the <em>Pij</em> &#x3D; 1&#x2F;<em>Pji</em>. The normalized pairwise comparison matrix is obtained. First, calculate the sum of each column. Secondly, divide each entry in the matrix by its column sum. Thirdly, the relative weights are obtained by calculating the average value of rows. [<a href="#_bookmark14">10</a>]</p>
 <p>To make weights are valid, the consistency ratio (CR) should be calculated by using the function:</p>
-<p><em>CI</em> &#x3D; <em>λ</em>max <em>− n</em></p>
-<p><em>n −</em> 1</p>
-<p><em>CI</em></p>
-<p><em>CR</em> &#x3D;</p>
-<p><em>RI</em></p>
-<p>(1)</p>
-<p>(2)</p>
+<p><img src="/images/yuanpei_equations.png" alt="CR function"></p>
 <p>In hierarchical analysis, the numerical condition for Consistency Ratio (CR) is usually between 0 and 0.1. When CR is less than or equal to 0.1, the consistency of the judgment matrix is considered acceptable. If the calculated CR value exceeds 0.1, it indicates that the judgment matrix has a large</p>
 <p>consistency problem and needs to be adjusted and corrected.</p>
 <h2 id="Solar-Components-and-the-Determining-Factors"><a href="#Solar-Components-and-the-Determining-Factors" class="headerlink" title="Solar Components and the Determining Factors"></a>Solar Components and the Determining Factors</h2><p>Extracting some of the most important parameters from professional PV websites to show on the Table <a href="#_bookmark1">2</a> below for clarity. [<a href="#_bookmark5">1</a>]</p>
@@ -144,7 +141,7 @@
 <h1 id="Bhadla-Solar-Park"><a href="#Bhadla-Solar-Park" class="headerlink" title="Bhadla Solar Park"></a>Bhadla Solar Park</h1><h2 id="Climate-in-Bhadla"><a href="#Climate-in-Bhadla" class="headerlink" title="Climate in Bhadla"></a>Climate in Bhadla</h2><p>Bahadla Photovoltaic Power Station is a large-scale ground-based solar power project located in Jodhpur district of Rajasthan in northern India. By 2022, the total power is estimated to reach 40GW, making it the largest solar park in the world.[<a href="#_bookmark8">4</a>]</p>
 <p>Bahadla located in Jodhpur, orthwestern India, in the state of Rajasthan, experiences an arid subtropical climate. <a href="#_bookmark3">1</a> The city sits at an elevation of 280 meters above sea level. The climate in Jodhpur is characterized by distinct seasons and limited rainfall. Prior to the onset of the monsoon, which usually begins in March and extends until mid-June, Jodhpur experiences scorching heat. During this period, temperatures can soar above 45℃, and sandstorms are not uncommon.</p>
 <h2 id="Data"><a href="#Data" class="headerlink" title="Data"></a>Data</h2><p>The following tables show all CR and Weight data groups from Bahadla area.</p>
-<p><img src="/media/9eca5c89583c7a731b5db3cb0fe0e400.jpeg"></p>
+<p><img src="/images/Bahadla_map.jpg" alt="Bahadla Solar Park"></p>
 <p><strong>Figure 1:</strong> Bahadla Solar Park</p>
 <table>
 <thead>
@@ -204,31 +201,7 @@
 <h3 id="Weight-Price-Power-Temperature-coefficient"><a href="#Weight-Price-Power-Temperature-coefficient" class="headerlink" title="Weight -&gt; Price Power Temperature coefficient"></a>Weight -<em>&gt;</em> Price Power Temperature coefficient</h3><p>CR &#x3D; 0.09297183953015146 0.517133619 0.358560425 0.124305957</p>
 <p><strong>Table 7: CR and Weight Value Group A-5</strong></p>
 <h2 id="Computation-Matrices"><a href="#Computation-Matrices" class="headerlink" title="Computation Matrices"></a>Computation Matrices</h2><p>Here presents comparison matrices. Appendix code <a href="#_bookmark16">8</a> shows how to compute CR and Weight by using comparison matrix.</p>
-<p></p>
-<p></p>
-<p><em>matrix</em> &#x3D; </p>
-<p>1 1*&#x2F;<em>2 1</em>&#x2F;*3 5 4 </p>
-<p>2 1 1*&#x2F;*2 6 5</p>
-<p>3 2 1 7 6 </p>
-<p>(3)</p>
-<p>1*&#x2F;<em>5 1</em>&#x2F;<em>6 1</em>&#x2F;<em>7 1 1</em>&#x2F;*3</p>
-<p>1*&#x2F;<em>4 1</em>&#x2F;<em>5 1</em>&#x2F;*6 3 1 </p>
-<p> 1 2 9</p>
-<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 8</p>
-<p>1*&#x2F;<em>9 1</em>&#x2F;*8 1</p>
-<p>(4)</p>
-<p> 1 1 4</p>
-<p><em>matrix</em> &#x3D;  1 1 3</p>
-<p>(5)</p>
-<p>1*&#x2F;<em>4 1</em>&#x2F;*3 1</p>
-<p> 1 3 2</p>
-<p><em>matrix</em> &#x3D; 1*&#x2F;*3 1 1</p>
-<p>1*&#x2F;*2 1 1</p>
-<p>(6)</p>
-<p> 1 2 3</p>
-<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 4</p>
-<p>1*&#x2F;<em>3 1</em>&#x2F;*4 1</p>
-<p>(7)</p>
+<p><img src="/images/yuanpei_matrix_1.png" alt="Bahadla Comparison Matrix"></p>
 <h2 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h2><p>Here it shows each types of photovoltaic module final score corresponding to Bahadla data (Section</p>
 <p><a href="#data">3.2</a>).</p>
 <table>
@@ -404,7 +377,7 @@
 </tr>
 </tbody></table>
 <p><strong>Table 12: Final Score Group A-5</strong></p>
-<p><img src="/media/079f4b310970fbdf1770319d2d2d75d0.jpeg"></p>
+<p><img src="/images/longyangxia_map.jpg" alt="Longyangxia Solar Park"></p>
 <p><strong>Figure 2:</strong> Longyangxia Solar Park</p>
 <h1 id="Longyangxia-Solar-Park"><a href="#Longyangxia-Solar-Park" class="headerlink" title="Longyangxia Solar Park"></a>Longyangxia Solar Park</h1><h2 id="Climate-in-Longyangxia"><a href="#Climate-in-Longyangxia" class="headerlink" title="Climate in Longyangxia"></a>Climate in Longyangxia</h2><p>Longxiangxia, at an altitude of 2514 meters on Tibet Plateau, has an annual temperature range from -11℃ to 24℃ and experiences a few precipitation during its winter. The wind speed is hardly larger than 61 km&#x2F;h. [<a href="#_bookmark12">8</a>]</p>
 <h2 id="Data-1"><a href="#Data-1" class="headerlink" title="Data"></a>Data</h2><p>The following tables show all CR and Weight data groups from Longyangxia area.</p>
@@ -447,31 +420,7 @@
 <h3 id="Weight-Price-Power-Temperature-Coefficient"><a href="#Weight-Price-Power-Temperature-Coefficient" class="headerlink" title="Weight -&gt; Price Power Temperature Coefficient"></a>Weight -<em>&gt;</em> Price Power Temperature Coefficient</h3><p>CR &#x3D; 0.0031849983307247393 0.444273493 0.472111034 0.083615473</p>
 <p><strong>Table 17: CR and Weight Value Group B-5</strong></p>
 <h2 id="Computation-Matrices-1"><a href="#Computation-Matrices-1" class="headerlink" title="Computation Matrices"></a>Computation Matrices</h2><p>Here presents comparison matrices. Appendix code <a href="#_bookmark16">8</a> shows how to compute CR and Weight by using comparison matrix.</p>
-<p></p>
-<p></p>
-<p><em>matrix</em> &#x3D; </p>
-<p>1 1 1*&#x2F;*3 8 7</p>
-<p>1 1 2 6 7</p>
-<p>3 1*&#x2F;*2 1 8 9</p>
-<p>(8)</p>
-<p>1*&#x2F;<em>8 1</em>&#x2F;<em>6 1</em>&#x2F;<em>8 1 3 1</em>&#x2F;<em>7 1</em>&#x2F;<em>7 1</em>&#x2F;<em>9 1</em>&#x2F;*3 1</p>
-<p> 1 1 2</p>
-<p><em>matrix</em> &#x3D;  1 1 1</p>
-<p>(9)</p>
-<p>1*&#x2F;*2 1 1</p>
-<p> 1 2 5 8</p>
-<p><em>matrix</em> &#x3D; 1*&#x2F;*2 1 3 7</p>
-<p>1*&#x2F;<em>5 1</em>&#x2F;*3 1 2</p>
-<p>1*&#x2F;<em>8 1</em>&#x2F;<em>7 1</em>&#x2F;*2 1</p>
-<p>(10)</p>
-<p> 1 5 4</p>
-<p><em>matrix</em> &#x3D; 1*&#x2F;*5 1 1</p>
-<p>1*&#x2F;*4 1 1</p>
-<p>(11)</p>
-<p> 1 1 5</p>
-<p><em>matrix</em> &#x3D;  1 1 6</p>
-<p>(12)</p>
-<p>1*&#x2F;<em>5 1</em>&#x2F;*6 1</p>
+<p><img src="/images/yuanpei_matrix_2.png" alt="Longyangxia Comparison Matrix"></p>
 <h2 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h2><p>Here it shows each types of photovoltaic module final score corresponding to Longyangxia data (Section <a href="#_bookmark4">4.2</a>).</p>
 <table>
 <thead>
